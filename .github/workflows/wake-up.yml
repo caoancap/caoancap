@@ -14,7 +14,7 @@ jobs:
         run: >
              for i in `seq 1 4`; do (
                  echo "response -> $(curl -s https://shrtr.caiocampos.repl.co/@/count)";
-                 SLEEP_TIME=$((1 + RANDOM % 11));
+                 SLEEP_TIME=$((50 + RANDOM % 31));
                  echo "sleeping ${SLEEP_TIME}s";
                  sleep $SLEEP_TIME;
                  );
