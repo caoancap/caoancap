@@ -11,11 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: HTTP Requests
-        run: for i in `seq 1 4`; do ( \
-                 echo "response -> $(curl -s https://shrtr.caiocampos.repl.co/@/count)"; \
-                 SLEEP_TIME=$((50 + RANDOM % 31)); \
-                 echo "sleeping ${SLEEP_TIME}s"; \
-                 sleep $SLEEP_TIME; \
-                 ); \
+        run: >
+             for i in `seq 1 4`; do (
+                 echo "response -> $(curl -s https://shrtr.caiocampos.repl.co/@/count)";
+                 SLEEP_TIME=$((1 + RANDOM % 11));
+                 echo "sleeping ${SLEEP_TIME}s";
+                 sleep $SLEEP_TIME;
+                 );
              done
         shell: bash
