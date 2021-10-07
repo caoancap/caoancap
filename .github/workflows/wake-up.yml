@@ -16,6 +16,6 @@ jobs:
                  SLEEP_TIME=$((50 + RANDOM % 31)); \
                  echo "sleeping ${SLEEP_TIME}s"; \
                  sleep $SLEEP_TIME; \
-                 );
+                 ); \
              done
         shell: bash
