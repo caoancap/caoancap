@@ -41,7 +41,7 @@ jobs:
            curl -o ./out/top-languages-dark.svg \
            "https://github-readme-stats.vercel.app/api/top-langs?username=caoancap&hide_title=true&layout=default&theme=tokyonight"
     - name: Run
-      run: cargo run
+      run: python md_fuse.py
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.5
       with:
