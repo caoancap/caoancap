@@ -1,0 +1,11 @@
+{
+  "input_folder": "files",
+  "output_folder": "out",
+  "files": [
+    {
+      "name": "pt",
+      "inputs": ["intro.pt.md", "body.md", "infograph.pt.md", "trailer.md"],
+      "output": "README.md"
+    }
+  ]
+}
