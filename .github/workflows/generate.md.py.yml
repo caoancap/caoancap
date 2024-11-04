@@ -1,25 +1,30 @@
-name: Generate MDs (Rust)
+name: Generate MDs (Python)
 
 on:
   schedule:
-    - cron: "0 8 * * *"
+    - cron: "0 2,5,23 * * *"
   workflow_dispatch:
-
-env:
-  CARGO_TERM_COLOR: always
 
 jobs:
   build:
     env:
-      README_STATS: "https://github-readme-stats.vercel.app/api/top-langs?username=caoancap&hide_title=true&hide=html,css&langs_count=8&exclude_repo=Java-Random-Stuff,C-Random-Stuff,GLAE,Opcao-MpC"
+      README_STATS: "https://github-readme-stats.vercel.app/api/top-langs?username=caoancap&hide_title=true&hide=html,css&langs_count=8"
     runs-on: ubuntu-latest
 
+    strategy:
+      matrix:
+        python-version: ["3.12"]
     steps:
-    - name: Checkout md-fuse
+    - name: Install the latest version of rye
+      uses: eifinger/setup-rye@v4
+      with:
+        enable-cache: true
+        cache-prefix: ${{ matrix.python-version }}
+    - name: Checkout md-fuse-py
       uses: actions/checkout@v4
       with:
         persist-credentials: false
-        repository: caoancap/md-fuse
+        repository: caoancap/md-fuse-py
     - name: Checkout base files
       uses: actions/checkout@v4
       with:
@@ -38,10 +43,12 @@ jobs:
       run: |
            curl -o ./out/top-languages.svg "${{env.README_STATS}}"
            curl -o ./out/top-languages-dark.svg "${{env.README_STATS}}&theme=tokyonight"
+    - name: Sync
+      run: rye sync
     - name: Run
       run: |
            export VERSION=$(date +'%Y%m%d%H%M%S')
-           cargo run
+           rye run fuse
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
       with:

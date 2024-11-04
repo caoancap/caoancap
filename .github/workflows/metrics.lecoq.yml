@@ -1,7 +1,7 @@
 name: Metrics
 on:
   schedule:
-    - cron: "0 16,18,21 * * *"
+    - cron: "0 1,22 * * *"
   workflow_dispatch:
   
 jobs:
@@ -20,3 +20,9 @@ jobs:
           plugin_achievements_display: compact
           plugin_achievements_secrets: yes
           plugin_achievements_threshold: C
+          plugin_starlists: yes
+          plugin_starlists_languages: yes
+          plugin_starlists_limit_languages: 10
+          plugin_starlists_limit_repositories: 0
+          plugin_starlists_only: stack
+          config_padding: 0, 8 + 25%
