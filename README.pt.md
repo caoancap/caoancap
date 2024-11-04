@@ -1,8 +1,8 @@
-<h1 align="center">Hi there :wave:</h1>
+<h1 align="center">Olá :wave:</h1>
 
-I am the game developer Cachorro Anarquista.
+Eu sou o desenvolvedor de jogos Cachorro Anarquista.
 
-To know my projects, please visit the website: https://cao-ancap.github.io/web-games/
+Para conhecer meus projetos, por favor acesse o site: https://cao-ancap.github.io/web-games/
 
 *Read this in other languages: [English](README.en.md), [Português](README.pt.md), [Español](README.es.md).*
 
@@ -67,8 +67,8 @@ To know my projects, please visit the website: https://cao-ancap.github.io/web-g
 
 <details open>
   <summary>
-    Infographic
-    <img align="middle" title="Infographic" src="https://cdn.iconscout.com/icon/premium/png-32-thumb/infographic-management-732672.png" alt="Infographic"/>
+    Infográfico
+    <img align="middle" title="Infográfico" src="https://cdn.iconscout.com/icon/premium/png-32-thumb/infographic-management-732672.png" alt="Infographic"/>
   </summary>
 
   <div align="center">
@@ -102,7 +102,7 @@ To know my projects, please visit the website: https://cao-ancap.github.io/web-g
   </a>
 </div>
 
-Built with:
+Montado utilizando:
 [MD-Fuse](https://github.com/caoancap/md-fuse)
 [MD-Fuse-py](https://github.com/caoancap/md-fuse-py)
 
