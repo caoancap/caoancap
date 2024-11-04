@@ -62,7 +62,7 @@ Para conhecer meus projetos, por favor acesse o site: https://cao-ancap.github.i
 ---
 
 <div align="center">
-  <img src="https://github.com/caoancap/readme-base/blob/master/images/animated.svg" />
+  <img src="https://github.com/caoancap/readme-base/blob/main/images/animated.svg" />
 </div>
 
 <details open>
@@ -83,8 +83,8 @@ Para conhecer meus projetos, por favor acesse o site: https://cao-ancap.github.i
       &ensp;
       <a title="Top Languages" href="https://github.com/anuraghazra/github-readme-stats">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/caoancap/caoancap/master/top-languages-dark.svg">
-          <img src="https://raw.githubusercontent.com/caoancap/caoancap/master/top-languages.svg" alt="Top Languages">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/caoancap/caoancap/main/top-languages-dark.svg">
+          <img src="https://raw.githubusercontent.com/caoancap/caoancap/main/top-languages.svg" alt="Top Languages">
         </picture><!--
    --></a>
       &ensp;
@@ -106,4 +106,4 @@ Montado utilizando:
 [MD-Fuse](https://github.com/caoancap/md-fuse)
 [MD-Fuse-py](https://github.com/caoancap/md-fuse-py)
 
-[comment]: # (version: 20241104025401)
+[comment]: # (version: 20241104025953)
