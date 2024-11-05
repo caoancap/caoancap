@@ -2,7 +2,9 @@
 
 Soy el desarrollador del juego Cachorro Anarquista.
 
-Para conocer mis proyectos, por favor visite el sitio web: https://cao-ancap.github.io/web-games/
+Para conocer mis proyectos, por favor visite los sitios web:<br/>
+https://caoancap.github.io <br/>
+https://cao-ancap.github.io/web-games/
 
 *Read this in other languages: [English](README.en.md), [Português](README.pt.md), [Español](README.es.md).*
 
@@ -106,4 +108,4 @@ Construido usando:
 [MD-Fuse](https://github.com/caoancap/md-fuse)
 [MD-Fuse-py](https://github.com/caoancap/md-fuse-py)
 
-[comment]: # (version: 20241104231519)
+[comment]: # (version: 20241105021056)
