@@ -108,4 +108,4 @@ Montado utilizando:
 [MD-Fuse](https://github.com/caoancap/md-fuse)
 [MD-Fuse-py](https://github.com/caoancap/md-fuse-py)
 
-[comment]: # (version: 20260317232108)
+[comment]: # (version: 20260318041236)
