@@ -10,18 +10,16 @@ env:
 
 jobs:
   build:
-    env:
-      README_STATS: "https://github-readme-stats.vercel.app/api/top-langs?username=caoancap&hide_title=true&hide=html,css&langs_count=8"
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout md-fuse
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         persist-credentials: false
         repository: caoancap/md-fuse
     - name: Checkout base files
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         persist-credentials: false
         repository: caoancap/readme-base
@@ -34,10 +32,6 @@ jobs:
            cp -r ./out/* ./
            rm -rf ./out/files
            rm -f ./out/md.conf.json
-    - name: Download Charts
-      run: |
-           curl -o ./out/top-languages.svg "${{env.README_STATS}}"
-           curl -o ./out/top-languages-dark.svg "${{env.README_STATS}}&theme=tokyonight"
     - name: Run
       run: |
            export VERSION=$(date +'%Y%m%d%H%M%S')
