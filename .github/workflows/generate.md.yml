@@ -14,12 +14,12 @@ jobs:
 
     steps:
     - name: Checkout md-fuse
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
       with:
         persist-credentials: false
         repository: caoancap/md-fuse
     - name: Checkout base files
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
       with:
         persist-credentials: false
         repository: caoancap/readme-base
