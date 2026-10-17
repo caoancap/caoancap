@@ -116,11 +116,11 @@
       <g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms">
       <text data-testid="lang-name" x="2" y="15" class="lang-name">C++</text>
-      <text x="215" y="34" class="lang-name">79.36%</text>
+      <text x="215" y="34" class="lang-name">78.58%</text>
       
     <svg width="205" x="0" y="25">
       <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="205" height="8"></rect>
-      <svg data-testid="lang-progress" width="79.36133233028094%">
+      <svg data-testid="lang-progress" width="78.58262053376487%">
         <rect
             height="8"
             fill="#f34b7d"
@@ -135,11 +135,11 @@
   </g><g transform="translate(0, 40)">
     <g class="stagger" style="animation-delay: 600ms">
       <text data-testid="lang-name" x="2" y="15" class="lang-name">GDScript</text>
-      <text x="215" y="34" class="lang-name">16.74%</text>
+      <text x="215" y="34" class="lang-name">16.57%</text>
       
     <svg width="205" x="0" y="25">
       <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="205" height="8"></rect>
-      <svg data-testid="lang-progress" width="16.73713974422164%">
+      <svg data-testid="lang-progress" width="16.57291104775115%">
         <rect
             height="8"
             fill="#355570"
@@ -154,11 +154,11 @@
   </g><g transform="translate(0, 80)">
     <g class="stagger" style="animation-delay: 750ms">
       <text data-testid="lang-name" x="2" y="15" class="lang-name">JavaScript</text>
-      <text x="215" y="34" class="lang-name">3.90%</text>
+      <text x="215" y="34" class="lang-name">4.84%</text>
       
     <svg width="205" x="0" y="25">
       <rect data-testid="progress-background" class="progress-background" rx="5" ry="5" x="0" y="0" width="205" height="8"></rect>
-      <svg data-testid="lang-progress" width="3.901527925497419%">
+      <svg data-testid="lang-progress" width="4.844468418483984%">
         <rect
             height="8"
             fill="#f1e05a"
